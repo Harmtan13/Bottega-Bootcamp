@@ -5,21 +5,12 @@
   <p>
     <%= @blog.body %>
   </p>
+
+  <%= render 'comments/comment_form' %>
   
-  <!--Start of comment form-->
-  <% unless current_user.is_a? GuestUser %>
-    <%= form_for @comment, url: '#' do |f| %>
-      <div class="form-group">
-        <%= f.label :content %>
-        <%= f.text_area :content, class: 'form-control' %>
-      </div>
+  <div id=comments data-blog-id="<%= @blog.id %>">
     
-      <%= f.submit 'Post Comment', class: 'btn btn-primary' %>
-      <% end %>
-  <% end %>
-  <!--End of comment Form-->
+  </div>
   
-  <!--Start of Comments-->
   <%= render @blog.comments %>
-  <!--End of Comments-->
 </div>
