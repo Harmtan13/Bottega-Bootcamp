@@ -9,17 +9,25 @@ module BlogsHelper
         end
     end
         
-        def markdown(text)
-            coderayified = CodeRayify.new(filter_html: true, hard_wrap: true)
-            
-            options = {
-                fenced_code_blocks: true,
-                no_intra_emphasis: true,
-                autolink: true,
-                lax_html_blocks: true,
-            }
-            
-            markdown_to_html = Redcarpet::Markdown.new(coderayified, options)
-            markdown_to_html.render(text).html_safe
+    def markdown(text)
+        coderayified = CodeRayify.new(filter_html: true, hard_wrap: true)
+        
+        options = {
+            fenced_code_blocks: true,
+            no_intra_emphasis: true,
+            autolink: true,
+            lax_html_blocks: true,
+        }
+        
+        markdown_to_html = Redcarpet::Markdown.new(coderayified, options)
+        markdown_to_html.render(text).html_safe
+    end
+    
+    def blog_status_icon(blog)
+        if blog.draft?
+            'file-text'
+        else
+            'newspaper-o'
         end
+    end
 end
