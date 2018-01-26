@@ -7,9 +7,9 @@
                 
                 <div class="skills">
                     <% @skills.each do |skill| %>
-                        <div>
-                        <h4><%= skill.title %></h4>
-                        <div class="progress">
+                        <div class="skill">
+                            <h4><%= skill.title %></h4>
+                            <div class="progress">
                                 <div class="progress-bar progress-bar-striped bg-warning"
                                     role="progress-bar"
                                     aria-valuenow= <% skill.percent_utilized %>
