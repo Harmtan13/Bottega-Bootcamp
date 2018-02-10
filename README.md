@@ -8,16 +8,16 @@
 - x AdminUser -> STI
 
 ## Features:
-- - Approval Workflow
-- - SMS Sending -> link to approval or overtime input
-- - Administrate admin dashboard
-- - Email summary to managers for approval
-- - Needs to be documented if employee did not log overtime
+- o Approval Workflow
+- o SMS Sending -> link to approval or overtime input
+- o Administrate admin dashboard
+- o Email summary to managers for approval
+- o Needs to be documented if employee did not log overtime
 
 ## UI:
 - x Bootstrap -> formatting
-- - Icons from Font Awesome
+- o Icons from Font Awesome
 - x Updating the sytles for forms
 
 # Refactor TODOS:
--  - Refactor user association integration test in post_spec
+- o Refactor user association integration test in post_spec
