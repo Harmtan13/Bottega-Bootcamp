@@ -16,6 +16,8 @@ x AdminUser -> STI
 
 ## UI:
 x Bootstrap -> formatting
+- Icons from Font Awesome
+- Updating the sytles for forms
 
 # Refactor TODOS:
 - Refactor user association integration test in post_spec
