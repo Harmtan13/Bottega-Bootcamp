@@ -21,6 +21,4 @@
 - x Updating the sytles for forms
 
 # Refactor TODOS:
-- o Refactor user association integration test in post_spec
 - o Refactor posts/_form for admin user with status
-- o Fix post_spec.rb:82 to use factories
