@@ -22,4 +22,7 @@
 - x Updating the sytles for forms
 
 # Refactor TODOS:
-- x Refactor posts/_form for admin user with status
+- o Integrate validation for phone attribute in User:
+    # No spaces or dashes
+    # Exactly 10 characters
+    # all characters have to be a number
