@@ -13,8 +13,9 @@
 - x SMS Sending -> link to approval or overtime input -> integrate with Heroku scheduler
 - x Administrate admin dashboard
 - x Block non-Admin & Guest Users
-- o Email summary to managers for approva
+- x Email summary to managers for approva
 - x Needs to be documented if employee did not log overtime
 - o Create audit log for each text message
+- o Need to update end_date when confirmed
 
-# Refactor TODOS:
+## TODOS:
