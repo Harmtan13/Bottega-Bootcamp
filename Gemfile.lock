@@ -272,6 +272,7 @@ DEPENDENCIES
   administrate (~> 0.8.1)
   bootstrap-sass (~> 3.3, >= 3.3.7)
   bourbon (~> 5.0)
+  bundler (~> 1.16, >= 1.16.1)
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
