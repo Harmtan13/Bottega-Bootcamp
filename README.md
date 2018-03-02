@@ -23,5 +23,7 @@
 - o Update button sort order on employee homepage
 - o Remove unnecessary nav bar buttons for managers
 - o Fix admin dashboard bug
+- o Implement Honeybadger error reporting
+- o Implement new relic for keeping site alives
 
 ## TODOS:
