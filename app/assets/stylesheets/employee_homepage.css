@@ -10,3 +10,7 @@
   max-width: 75%;
   margin: auto;
 }
+
+.btn {
+  white-space: normal !important;
+}
