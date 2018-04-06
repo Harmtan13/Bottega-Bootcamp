@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   selector: 'app',
   templateUrl: 'app.component.html'
 })
+
 export class AppComponent {
-  title: 'Freelance Bootcamp Dashboard';
+  title: 'Freelance Bootcamp Dashboard'
 }
