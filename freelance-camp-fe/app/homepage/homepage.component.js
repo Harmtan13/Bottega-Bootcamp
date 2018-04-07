@@ -16,7 +16,8 @@ var HomepageComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'homepage',
-            templateUrl: 'homepage.component.html'
+            templateUrl: 'homepage.component.html',
+            styleUrls: ['homepage.component.css']
         }), 
         __metadata('design:paramtypes', [])
     ], HomepageComponent);
