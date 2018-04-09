@@ -8,5 +8,6 @@ import { Proposal } from './proposal';
   styleUrls: ['proposal-new.component.css']
 })
 export class ProposalNewComponent {
-  proposal = new Proposal; 
+  proposal = new Proposal;
+  submitted: boolean = false;
 }
