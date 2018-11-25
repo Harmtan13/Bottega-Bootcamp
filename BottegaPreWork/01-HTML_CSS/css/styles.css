@@ -25,10 +25,13 @@ body {
 }
 
 .icon > i {
-  font-size: 2em;
+  font-size: 2.3em;
 }
 
-.contact-hours-wrapper {
+.left-column > .contact-hours-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
 }
 
 .address-wrapper {
