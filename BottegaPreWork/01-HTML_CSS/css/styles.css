@@ -1,5 +1,6 @@
 /* Commong Styles */
 body {
+  font-family: 'Roboto', sans-serif;
   margin: 0px;
 }
 
@@ -21,10 +22,10 @@ body {
 }
 
 .icon {
-  margin-right: 15px;
+  margin: 0px 15px;
 }
 
-.icon > i {
+.icon i {
   font-size: 2.3em;
 }
 
@@ -32,4 +33,13 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
+}
+
+.contact-hours-wrapper > .hours, .address-wrapper > .address-line1, .address-wrapper > .address-line2 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.nav-link a {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: white;
 }
