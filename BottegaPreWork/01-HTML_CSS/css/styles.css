@@ -1,3 +1,8 @@
+/* Commong Styles */
+body {
+  margin: 0px;
+}
+
 /* Nav Styles */
 
 .navigation-wrapper {
@@ -7,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 25px 50px;
 }
 
 .contact-hours-wrapper {
