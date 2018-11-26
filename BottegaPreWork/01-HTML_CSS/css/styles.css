@@ -41,7 +41,40 @@ body {
 
 .navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
   font-family: 'Ubuntu Condensed', sans-serif;
-  color: white;
+}
+
+.navigation-wrapper > .center-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 400px;
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links-wrapper > .nav-link {
+  width: 60px;
+  text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #cbcbcb;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+  color: #cea135;
+  letter-spacing: 2px;
 }
 
 .navigation-wrapper > .left-column > .contact-hours-wrapper > .hours, 
