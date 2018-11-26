@@ -1,11 +1,3 @@
-/* Commong Styles */
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0px;
-}
-
-/* Nav Styles */
-
 .navigation-wrapper {
   height: 190px;
   background-color: #11122b;
@@ -37,6 +29,11 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
+  color: #858585;
+  font-size: .8em;
 }
 
 .navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
@@ -86,4 +83,19 @@ body {
 .navigation-wrapper > .center-column > .banner-image img {
   width: 215px;
   height: 100%;
+}
+
+.navigation-wrapper > .right-column a {
+  color: #858585;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column a:hover {
+  color: #cea135;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper {
+text-align: right;
 }
