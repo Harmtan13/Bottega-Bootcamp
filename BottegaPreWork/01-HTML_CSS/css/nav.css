@@ -36,7 +36,7 @@
   font-size: .8em;
 }
 
-.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+.links-wrapper > .nav-link a {
   font-family: 'Ubuntu Condensed', sans-serif;
 }
 
@@ -51,7 +51,7 @@
   justify-content: center;
 }
 
-.navigation-wrapper > .center-column > .links-wrapper {
+.links-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
