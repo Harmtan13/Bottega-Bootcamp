@@ -26,3 +26,35 @@
   width: 107px;
   border-radius: 2px;
 }
+
+/* Features Section Syles */
+.features-section {
+height: 400px;
+background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
+background-color: #cea135;
+border-top: 10px solid white;
+color: #11122b;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Ubuntu Condensed" sans-serif;
+}
+
+.features-section > .columns-wrapper {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+  padding: 20px;
+  margin: 42px;
+  text-align: center;
+  border-bottom: 5px solid transparent;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+  border-bottom: 5px solid #11122b;
+}
