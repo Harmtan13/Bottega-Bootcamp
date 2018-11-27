@@ -79,28 +79,3 @@ box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58)
 }
 
 /* Footer Styles */
-.footer {
-  height: 400px;
-  background-color: #11122b;
-  color: #cbcbcb;
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-}
-.footer :nth-child(n) {
-  display: flex;
-  justify-content: center;
-}
-
-.footer > .links-wrapper {
-  justify-content: space-evenly
-}
-
-.footer > .social-media {
-  padding-top: 20px;
-}
-
-.footer > .footer-logo img {
-  width: 215px;
-  height: 100%;
-}
