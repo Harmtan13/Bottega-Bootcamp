@@ -128,6 +128,7 @@ h1, h2, h3, h4, h5 ,h6 {
 
 .page-container > .content-wrapper {
   width: 1000px;
+  padding: 0px 30px;
 }
 
 .page-container > .content-wrapper > #chef {
@@ -140,4 +141,45 @@ h1, h2, h3, h4, h5 ,h6 {
 .page-container > .content-wrapper p {
   letter-spacing: 1px;
   line-height: 2rem;
+}
+
+/* Square Grid Styles */
+.squares-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.squares-wrapper > .squares {
+  width: 1000px;
+  padding: 30px;
+}
+
+.squares-wrapper > .squares > .square {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -4px;
+}
+
+.square > .img-wrapper img {
+ width: 100%;
+ height: 450px;
+ object-fit: cover;
+}
+
+.square > .square-text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.square > .square-text-wrapper h1 {
+  color: #cea135;
+}
+
+/* Helper Styles */
+.spacer40 {
+  height: 40px;
+  width: 100%;
 }
