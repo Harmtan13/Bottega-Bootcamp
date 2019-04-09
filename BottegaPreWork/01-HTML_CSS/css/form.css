@@ -46,6 +46,17 @@
    font-weight: 600;
 }
 
+.form input:focus::-webkit-input-placeholder, 
+.form textarea:focus::-webkit-input-placeholder {
+  visibility: hidden;
+}
+
+.form input:focus + label, .form textarea:focus + label {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(1rem);
+}
+
 .form label {
   font-size: 1.2rem;
   font-weight: 700;
@@ -54,10 +65,4 @@
   color: #cea135;
   visibility: hidden;
   opacity: 0;
-}
-
-.form input:focus + label, .form textarea:focus + label {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(1rem);
 }

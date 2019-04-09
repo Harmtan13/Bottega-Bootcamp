@@ -8,3 +8,12 @@
   outline: none;
   transition: 0.3s;
 }
+
+.btn:active {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.centered-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
